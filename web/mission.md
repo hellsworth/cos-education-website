@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Mission Statement"
-permalink: /mission
+permalink: /mission/
 ---
 
 # What are we all about?

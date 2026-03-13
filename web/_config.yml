@@ -11,5 +11,5 @@ plugins:
 
 header_pages:
   - mission.md
-  - news.html
-  - contact.md
+    #- news.html
+    #- contact.md

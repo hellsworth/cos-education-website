@@ -4,7 +4,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}"><img src="/assets/LASlogo.svg" style="height: 1em"/></a>
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}"><img src="/assets/book-logo.jpg" style="height: 1em"/></a>
 
     {%- if titles_size > 0 -%}
       <nav class="site-nav">
@@ -28,8 +28,8 @@
 <!--
           <a class="page-link" href="https://conf.linuxappsummit.org/event/7/timetable/#all">Timetable</a>
           <a class="page-link" href="https://conf.linuxappsummit.org/event/6/registrations/18/">Volunteer</a>
--->
           <a class="page-link" href="https://shop.spreadshirt.com/linux-app-summit/all">Merch</a>
+-->
         </div>
       </nav>
     {%- endif -%}
