@@ -5,7 +5,7 @@ baseurl: ""
 url: "https://206.81.0.78"
 
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-sitemap
 
