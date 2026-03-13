@@ -1,0 +1,203 @@
+---
+---
+
+@import "minima";
+
+@charset "utf-8";
+
+// Our variables
+$base-font-family: "Inclusive Sans";
+$monospace-font-family: Monaco, Menlo, Consolas, "Courier New", DotumChe, monospace;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       black;
+$branded-text:     white;
+$background-color: white;
+$brand-color:      #00687A;
+$separator:        #561269;
+$button-color:     #4CA626;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    100%;
+
+.banner {
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    text-align: left;
+    padding: 40pt 20%;
+    color: $branded-text;
+}
+
+.wrapper {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.page-content {
+    color: $text-color;
+    padding: 0;
+}
+
+.site-header {
+    background-color: $brand-color;
+    color: $branded-text;
+    border-top: 0;
+    border-bottom: 1px solid $separator;
+}
+
+h3 > .site-header {
+    color: red
+}
+
+.site-footer {
+    background-color: $brand-color;
+    border-top: 1pt solid $separator;
+    display: flex;
+    clear: both;
+}
+.site-footer .wrapper {
+    margin-left: 0;
+}
+.site-footer a, .site-footer a:visited {
+    color: $branded-text;
+}
+a, a:visited {
+    color: $button-color;
+}
+.site-footer.wrapper {
+    float: left;
+}
+.hosts {
+    float: right;
+    text-align: right
+}
+
+.site-nav {
+    font-size: 14pt;
+    padding: 0.5cm 0.5cm;
+    float: left;
+}
+.site-header .site-nav a {
+    color: $branded-text;
+}
+
+.site-header {
+    font-family: "Kanit";
+}
+
+.site-title, .site-title:visited {
+    color: $branded-text;
+    padding: 0.5cm 0.5cm;
+    font-size: 36pt;
+    font-weight: bolder
+}
+
+.site-footer img {
+    height: 2.5cm;
+    width: auto;
+    filter: brightness(0%) invert(1);
+    padding: 20px;
+}
+
+.sponsors {
+    flex-wrap: wrap;
+    align-items: center; /* For vertical align */
+}
+
+.sponsors > img {
+    position: relative;
+    max-width: 5cm;
+    max-height: 1.8cm;
+    margin-right: 2cm;
+    margin-bottom: 1cm;
+}
+
+hr {
+    background-color: $separator;
+    border: none;
+    height: 2pt;
+    clear: both
+}
+
+h2 {
+    font-weight: bolder;
+    font-family: "Kanit";
+    font-size: xx-large;
+    clear: both;
+}
+
+h3 {
+    font-weight: bolder;
+    font-family: "Kanit";
+}
+
+.sponsors-page > h3 {
+    clear: both;
+}
+
+blockquote {
+    margin-bottom: 2cm;
+}
+
+.button {
+    font-family: "Kanit";
+    background-color: $button-color;
+    border: none;
+    color: white;
+    padding: 12pt 16pt;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16pt;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 1cm;
+    border-radius: 5px;
+}
+
+.location {
+    padding: 20pt 60pt;
+    float: right
+}
+
+.sponsorlogo {
+    float: right;
+    width: 25%;
+    margin-left: 1cm;
+    margin-bottom: 2cm;
+}
+
+.greg {
+    min-height: 200px
+}
+.svg-icon {
+    fill: $branded-text
+}
+
+@media screen and (max-width: 600px) {
+    .site-nav .menu-icon > svg {
+        fill: $text-color
+    }
+    .site-nav {
+        background-color: $brand-color
+    }
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

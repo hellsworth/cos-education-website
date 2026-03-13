@@ -1,15 +1,18 @@
-title: COS Ed
+title: Colorado Springs Pro Public Education Group
 logo: "/assets/logo.jpg"
 subtitle: "Supporting public education in Colorado Springs"
 baseurl: ""
 url: "https://206.81.0.78"
 
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-sitemap
 
+sass:
+  load_paths:
+    - _sass
+
 header_pages:
   - mission.md
-    #- news.html
-    #- contact.md
+  - contact.md
