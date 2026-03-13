@@ -1,0 +1,15 @@
+title: COS Ed
+logo: "/assets/logo.jpg"
+subtitle: "Supporting public education in Colorado Springs"
+baseurl: ""
+url: "https://206.81.0.78"
+
+markdown: kramdown
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-sitemap
+
+header_pages:
+  - mission.md
+    #- news.html
+    #- contact.md

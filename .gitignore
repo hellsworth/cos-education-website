@@ -1,0 +1,21 @@
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby / Bundler
+/.bundle
+/.gem
+/.config
+Gemfile.lock
+*.gem
+*.rbc
+.ruby-version
+.ruby-gemset
+
+# Editor junk
+Thumbs.db
+*.log
+*.swp
+*~
